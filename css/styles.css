@@ -43,6 +43,7 @@ ul{
     text-decoration: none;
 }
 
+
 .site-nav .link:hover, 
 .site-nav .link:focus,
 .auth-nav .link:hover,
@@ -56,9 +57,6 @@ ul{
     color: var(--accent-color);
 }
 
-.site-nav .link.current {
-    color: var(--title-text-color);
-}
    
   /* Герой */
 .hero-title {
@@ -81,8 +79,9 @@ ul{
     letter-spacing: 0.06em;
     text-decoration: none;
     background-color: var(--accent-color);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    padding: 10px 32px;
+    display: inline-block;
 }
     
 
